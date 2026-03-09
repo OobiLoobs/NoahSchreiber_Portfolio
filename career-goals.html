@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>NSchreiber_CareerGoals</title>
+        <meta charset="UTF-8">
+        <link href="style.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <h1><a href="career-goals.html" class="logo">Noah Schreiber Portfolio</a></h1>
+            <nav>
+                <ul>
+                    <li><a class="pageNav" href="resume.html">Resume</a></li>
+                    <li><a class="pageNav" href="cover-letter.html">Cover Letter</a></li>
+                    <li><a class="pageNav" href="career-goals.html">Career Goals</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <main>
+            <section id="AboutMe">
+            <div class="boxBackground">
+                <h2 class="textBoxHeader">About Me</h2>
+                <p class="textBoxText">My career path has been anything but linear, and I think that's what makes it 
+                    interesting. I came into the workforce with a creative foundation, 
+                    a background in audio production, and a genuine love for storytelling 
+                    through sound. Over time though, my experiences led me to a place I 
+                    never expected: software engineering. Getting here required some honest 
+                    self-reflection, a willingness to let go of plans I had held onto for 
+                    years, and the commitment to starting fresh when something wasn't right.</p>
+            </div>
+            </section>
+
+            <section id="WhereIveBeen" class="textandimage">
+                <div id="WIBcontainer" class="boxBackground">
+                    <h2 class="textBoxHeader">Where I've Been</h2>
+                    <p>I graduated with an Associate's degree in Recording Arts and Technology, focusing much of my effort
+                        on audio post-production for film and television. During 
+                        that time, I had the opportunity to mix the score for a student film and 
+                        build relationships with working professionals at respected studios in the 
+                        industry. Those conversations were some of the most valuable for my 
+                        career, not because they confirmed my path, but because they gave me an 
+                        honest picture of what that life actually looked like. The work was 
+                        creative and meaningful, but even accomplished professionals at the top 
+                        of the field faced unpredictable income and no guarantee of continuous 
+                        work. I came to understand that the lifestyle the industry demanded wasn't 
+                        compatible with the life I wanted to build.</p>
+                    <div class="song">
+                        <span id="songName">My song "Weather" -</span>
+                        <audio controls>
+                            <source src="RAT2990_NSchreiber_Remix-WeatherFinalMix01.wav">
+                        </audio>
+                    </div>
+                </div>
+                
+                <img src="WhereIveBeenPhoto.jpg" 
+                alt="Photo of Noah Schreiber in recording studio" id="WhereIveBeenPhoto">
+            </section>
+            <section id="WhereIAmNow">
+                <div id="WIANcontainer" class="boxBackground">
+                    <h2 class="textBoxHeader">Where I Am Now</h2>
+                    <p class="textBoxText">After my employer was acquired by a larger university, our 
+                        A/V and IT departments were combined, leading me to transition 
+                        into an IT support role. Right around that same time, I started 
+                        building a video game in my free time. Having that project to come 
+                        home to made a real difference for my mental health, and sticking 
+                        with the unexpected change that I hadn't planned for. As I settled 
+                        into IT work, I found myself genuinely enjoying it. The logical 
+                        thinking, troubleshooting, and satisfaction of solving a problem 
+                        efficiently. A few months in, a colleague asked me to help with 
+                        database requests, which pushed me to start learning SQL. Meanwhile, 
+                        learning to code for my game had lit something in me. I kept setting 
+                        aside the creative work just to write more code, and that feeling 
+                        told me something important.</p>
+                </div>
+            </section>
+
+            <section id="WhereImGoing">
+                <div id="WIGcontainer" class="boxBackground">
+                    <h2 class="textBoxHeader">Where I'm Going</h2>
+                    <p class="textBoxText">I am currently pursuing a Bachelor of Science in Software 
+                        Engineering. My short-term focus is on strengthening my foundation in software 
+                        development fundamentals, while expanding my experience across multiple 
+                        languages and development environments. Long term, I'm keeping my options 
+                        open. I'm genuinely interested in the breadth of what software engineering 
+                        has to offer, and I wouldn't rule out eventually finding a way to bring my 
+                        creative background into it. Whether that means audio programming or tools 
+                        development in the game industry, or possibly diving into the tech field with 
+                        software and app development. I'm building skills I enjoy using, staying open 
+                        to where they lead, and trusting that the rest will follow.</p>
+                </div>
+            </section>
+
+            <div class="formAndVideo">
+
+                <div class="video_background">
+                    <video autoplay muted loop playsinline>
+                        <source src="CandleLight.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <section id="contact">
+                    <div class="form">
+                        <form action="https://wp.zybooks.com/form-viewer.php" method="POST">
+                            <h3>Contact Me</h3>
+                            <p>
+                                <label for="first">First Name:</label>
+                                <input type="text" name="first_name" id="first" placeholder="First">
+                            </p>
+                            <p>
+                                <label for="last">Last Name:</label>
+                                <input type="text" name="last_name" id="last" placeholder="Last">
+                            </p>
+                            <p>
+                                <label for="company">Company Name:</label>
+                                <input type="text" name="company_name" id="company" placeholder="Company">
+                            </p>
+                            <p>
+                                <label for="email">Email Address:</label>
+                                <input type="email" name="email" id="email" placeholder="example@email.com">
+                            </p>
+                            <p>
+                                <label for="phone">Phone Number:</label>
+                                <input type="tel" name="phone" id="phone" placeholder="(555) 555-555">
+                            </p>
+                            <p>
+                                <label for="message">Message:<br></label>
+                                <textarea name="message" id="message" rows="4" cols="50" placeholder="Your message here..."></textarea>
+                            </p>
+                            <p> Best time to contact?</p>
+                            <div class="timeOption">
+                                <label for="am">A.M.</label>
+                                <input type="radio" name="times" id="am" value="am">
+                            </div>
+                            <div class="timeOption">
+                                <label for="pm">P.M.</label>
+                                <input type="radio" name="times" id="pm" value="pm">
+                            </div>
+                            <div class="timeOption">
+                                <label for="anytime">Anytime</label>
+                                <input type="radio" name="times" id="anytime" value="anytime">
+                            </div>
+                            <div class="bottomContact">
+                                <select name="contactMethod" id="menu">
+                                    <option value="" disabled selected hidden>Pick one...</option>
+                                    <option value="phone">Phone Call</option>
+                                    <option value="email">Email</option>
+                                    <option value="text">Text</option>
+                                </select>
+
+                                <div id="submit">
+                                    <input type="submit" value="Submit" class="button" id="submitButton">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </section>
+            </div>
+
+        </main>
+        <footer>
+            <span id="copyright">&copy; Noah Schreiber 2026</span>
+        
+            <ul class="footerNav">
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="cover-letter.html">Cover Letter</a></li>
+                <li><a href="career-goals.html">Career Goals</a></li>
+                <li><a href="career-goals.html#contact">Contact</a></li>
+                <li><a href="#">Back to top</a></li>
+            </ul>
+        </footer>
+    </body>
+</html>
